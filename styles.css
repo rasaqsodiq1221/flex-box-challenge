@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.125rem;
+}
+
+.welcome {
+  background-color: #F3EED9;
+}
+
+.welcome-page {
+  width: 70%;
+  max-width: 1128px;
+  margin: 0px auto;
+  min-height: 660px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.welcome-paragraph {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  word-spacing: 0.4rem;
+  margin-bottom: 0.7rem;
+}
+
+.welcome-text {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 3.75rem;
+  text-align: center;
+  color: #824936;
+}
+
+.main-heading {
+  text-align: center;
+  color: #824936;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.25rem;
+ padding-top: 2.5em;
+}
+
+.row {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  padding: 3em 0;
+  justify-content: space-between;
+}
+
+.col {
+  width: 48%;
+}
+
+section h2 {
+  margin-bottom: 1rem;
+}
+
+img {
+  width: 100%;
+}
+
+.section1 {
+  background-color: #222C2A;
+  color: #fff;
+}
+
+.section2 {
+  background-color: #824936;
+  color: #fff;
+}
+
